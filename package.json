@@ -21,6 +21,7 @@
     "@ionic/vue-router": "^8.0.0",
     "@tailwindcss/vite": "^4.1.18",
     "ionicons": "^7.0.0",
+    "lucide-vue-next": "^0.562.0",
     "vue": "^3.3.0",
     "vue-router": "^4.2.0"
   },
