@@ -35,12 +35,12 @@
       </div>
 
       <div class="flex items-center gap-4">
-        <button class="bg-[#c17d6a] text-white px-8 py-3 rounded-full font-medium hover:bg-[#a86b5a] transition-colors">
+        <button class="bg-brand-base text-white px-8 py-3 rounded-full font-medium hover:bg-base-dark transition-colors">
           Sign In
         </button>
 
-        <button class="p-2 hover:bg-[#e8ddd0] rounded-full transition-colors">
-          <User class="w-8 h-8 text-[#5a6b5a]" :size="32" :stroke-width="1.5" />
+        <button class="p-2 hover:bg-surface rounded-full transition-colors">
+          <User class="w-8 h-8 text-primary" :size="32" :stroke-width="1.5" />
         </button>
 
         <button class="p-2 hover:bg-[#e8ddd0] rounded-full transition-colors relative">

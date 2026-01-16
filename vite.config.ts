@@ -1,7 +1,7 @@
 import tailwindcss from '@tailwindcss/vite';
 import vue from '@vitejs/plugin-vue'
-import path from 'path'
 import { defineConfig } from 'vite'
+import {fileURLToPath, URL} from "url";
 
 export default defineConfig({
   plugins: [
@@ -9,8 +9,11 @@ export default defineConfig({
     vue(),
   ],
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
+      alias: {
+          '@': fileURLToPath(new URL('./src', import.meta.url))
+      },
+  },
+    build: {
+        chunkSizeWarningLimit: 1600
     },
-  }
 })
